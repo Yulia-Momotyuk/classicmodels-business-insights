@@ -105,9 +105,9 @@ The ClassicModels database contains:
 ## 7. Installation  
 To run this project locally:  
 ```bash
-git clone https://github.com/your_username/classicmodels-sales-insights.git
-cd classicmodels-sales-insights```
-
+git clone https://github.com/Yulia-Momotyuk/classicmodels-business-insights.git
+cd classicmodels-sales-insights
+```
 ### Open Notebook
 
 Open **[`notebooks/ClassicModels_Analysis.ipynb`](notebooks/ClassicModels_Analysis.ipynb)** in Jupyter Lab.
