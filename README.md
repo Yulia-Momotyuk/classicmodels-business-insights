@@ -13,9 +13,8 @@ The goal is to generate **business insights** that support strategic decision-ma
 ---
 
 ## Resources  
-- SQL queries: `sql/queries.sql`  
-- Jupyter Notebook with analysis: `notebooks/ClassicModels_Analysis.ipynb`  
-- Visualizations: `images/`  
+- SQL queries: **[`classicmodels_queries.sql`](classicmodels_queries.sql)**  
+- Jupyter Notebook with analysis: **[`classicmodels-business-insights.ipynb`](classicmodels-business-insights.ipynb)**  
 
 ---
 
@@ -76,12 +75,22 @@ The project includes:
 
 ---
 
-## 4. Data Overview  
-The ClassicModels database contains:  
-- **products** — assortment, category, price, cost.  
-- **customers** — client information (name, country, contacts).  
-- **orders, orderdetails** — orders and order details.  
-- **payments** — payment dates and amounts.  
+## 4. Data Overview
+
+The **ClassicModels** database is a sample dataset that simulates a company selling collectible model cars worldwide (2003–2005).  
+It provides information on **customers, orders, products, employees, offices, and payments**, making it suitable for revenue, customer, and profitability analysis.
+
+### Main Tables
+
+| Table            | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **customers**    | Customer details: company name, country, contact person, credit limit       |
+| **orders**       | Order headers: order number, date, status, customer ID                      |
+| **orderdetails** | Order details: product, quantity, price                                     |
+| **products**     | Products: name, category (product line), buy price and MSRP (sell price)    |
+| **employees**    | Employees: first/last name, job title, manager, office                     |
+| **offices**      | Offices: city, country, contact info                                        |
+| **payments**     | Payments: customer, payment date, amount                                    |
 
 ---
 
@@ -106,11 +115,11 @@ The ClassicModels database contains:
 To run this project locally:  
 ```bash
 git clone https://github.com/Yulia-Momotyuk/classicmodels-business-insights.git
-cd classicmodels-sales-insights
+cd classicmodels-business-insights
 ```
 ### Open Notebook
 
-Open **[`notebooks/ClassicModels_Analysis.ipynb`](notebooks/ClassicModels_Analysis.ipynb)** in Jupyter Lab.
+Open **[`classicmodels-business-insights.ipynb`](classicmodels-business-insights.ipynb)** in Jupyter Lab.
 
 ---
 
