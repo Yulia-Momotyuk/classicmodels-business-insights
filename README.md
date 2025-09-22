@@ -2,7 +2,7 @@
 [![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/Yulia-Momotyuk)
 # 📊 ClassicModels — Sales Insights & Business Analytics  
 
-## 🔹 Project Overview  
+## Project Overview  
 This project analyzes the **[ClassicModels](https://www.mysqltutorial.org/mysql-sample-database.aspx)** dataset, focusing on products, customers, markets, revenue dynamics, and payment discipline.  
 The goal is to generate **business insights** that support strategic decision-making:  
 - Which products and customers drive the majority of revenue.  
@@ -12,14 +12,14 @@ The goal is to generate **business insights** that support strategic decision-ma
 
 ---
 
-## 🔹 Resources  
+## Resources  
 - SQL queries: `sql/queries.sql`  
 - Jupyter Notebook with analysis: `notebooks/ClassicModels_Analysis.ipynb`  
 - Visualizations: `images/`  
 
 ---
 
-## 🔹 Table of Contents  
+## Table of Contents  
 1. Project Overview  
 2. Technologies Used  
 3. Key Features  
@@ -106,15 +106,15 @@ The ClassicModels database contains:
 To run this project locally:  
 ```bash
 git clone https://github.com/your_username/classicmodels-sales-insights.git
-cd classicmodels-sales-insights
+cd classicmodels-sales-insights```
 
-### Open Notebook```
+### Open Notebook
 
 Open **[`notebooks/ClassicModels_Analysis.ipynb`](notebooks/ClassicModels_Analysis.ipynb)** in Jupyter Lab.
 
 ---
 
-### 🔹 Business & Technical Goals  
+### Business & Technical Goals  
 
 - **Business Goal:** Identify key revenue drivers, customer segments, seasonal patterns, and payment risks to improve profitability and financial stability.  
 - **Technical Goal:** Extract data from MySQL, process using Python and SQLAlchemy, and deliver insights through analysis, visualization, and storytelling in Jupyter Notebook.  
