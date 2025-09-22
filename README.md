@@ -1,6 +1,6 @@
 [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/Yulia-Momotyuk?tab=repositories)
 [![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/Yulia-Momotyuk)
-# 📊 ClassicModels — Sales Insights & Business Analytics  
+# ClassicModels — Sales Insights & Business Analytics  
 
 ## Project Overview  
 This project analyzes the **[ClassicModels](https://www.mysqltutorial.org/mysql-sample-database.aspx)** dataset, focusing on products, customers, markets, revenue dynamics, and payment discipline.  
