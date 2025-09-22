@@ -1,0 +1,6 @@
+venv_classicmodels/
+anaconda_projects/
+.env/
+.ipynb_checkpoints/
+.virtual_documents/
+
